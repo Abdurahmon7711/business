@@ -84,7 +84,7 @@ const Nav = () => {
                                             <input type="checkbox" />
                                             <p className="mx-2">Remember me</p>
                                         </div>
-                                        <a href="#">Forget password</a>
+                                        <a href="#">Forget adf password</a>
                                     </div>
                                     <button className="login-btn" >log in</button>
                                 </div>
