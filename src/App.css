@@ -1,38 +1,373 @@
-.App {
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+  
+ *{
+  box-sizing: border-box;
+ }
+
+:root {
+  --nav_link: #000;
+  --main_info: #78878C;
+}
+
+
+.class {
+  color: var(--nav_link);
+}
+
+ 
+
+/* ================================= Nav ========================================= */
+
+.containers{
+  width: 1220px;
+  margin:0 auto;
+  /* background-color: gold; */
+}
+.nav{
+   margin-top:20px;
+}
+.nav_ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  }
+.nav_ul li {
+  margin-left: 50px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav_ul button{
+  margin-left: 50px;
+  text-decoration:none ;
+}
+
+.nav_ul :hover{
+  cursor: pointer;
+  color: #647378;
+}
+.nav_logo{
+  margin-right: 430px;
+}
+.nav_logo :hover{
+  cursor: pointer;
+}
+.loging{
+  border: 1px solid #000;
+  padding: 7px 10px;
+}
+
+/* ====================================== Start earning ==================================0 */
+
+.classrow{
+  /* border: 3px solid red; */
+  padding-top: 70px;  
+}
+.start_img{
+  
+  width: 550px;
+}
+.s_img{
+  margin: 0 auto;
+}
+.startnge{
+  font-size: 50px;
+  margin-top: 50px;
+}
+.start_an{
+  font-size: 30px;
+}
+.b{
+  color:#1283D6;
+}
+
+/* ========================================== Advantages ======================================== */
+.advan{
+  margin-top: 100px ;
+}
+.cb{
+  position: relative;
+  width: 210px;
+  padding: 30px 35px 10px; 
+  border: none !important;
+  box-shadow: 0 0 30px #E5E5E5;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cb h5{
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
+.advan_img{
+  position: static  ;
+  z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cbi{
+  width: 130px;
+
+}
+.cards{
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+/* ===================================== Our course ==================================== */
+.our_course{
+  margin: 80px 0;
+}
+.rows{
+  display: flex;
+  justify-content: space-between;
+}
+.card-header{
+  padding: 0 !important;
+  width: 285px;
+}
+.card_text__our{
+  padding: 20px;
+}
+.cards_ourC{
+  margin-top: 30px;
+}
+.card-header h6{
+  margin-bottom: 30px;
+}
+.card-header p{
+font-size: 13px;
+line-height: 16px;
+}
+
+/* ================================================ our Time ============================================== */
+
+.span_line{
+  display: block;
+  width: 75px;
+  height: 5px;
+  background: #1283D6;
+  margin-bottom: 20px;
+}
+.oTimeP{
+  font-size: 20px;
+  color:  #78878C;
+  
+}
+.row_our__time{
+  margin: 50px 0;
+}
+.position{
+  position: relative;
+}
+.univers{
+  position:absolute;
+  display: block;
+  width: 90px;
+  height: 90px;
+}
+.univer2{
+  position:absolute;
+  display: block;
+  width: 50px;
+  height:50px;
+}
+.span1{
+  background-color: #1283D6;
+  left: 522px;
+  top: 450px;
+}
+.span2{
+  background-color: #1283D6;
+  left: 612px;
+  top: 400px;
+}
+.span3{
+  background: #47DEA8;
+  right: 10px;
+  top: 0;
+}
+.span4{
+  background-color: #1283D6;
+  right:60px;
+  top: -90px;
+}
+.span5{
+  background: #47DEA8;
+  left:-38px;
+  bottom:0px;
+}
+.span6{
+  background: #47DEA8;
+  left:-38px;
+  top:-50px;
+}
+.span7{
+  background: #1283D6;
+  left:12px;
+  top:0px;
+}
+.span8{
+  background: #47DEA8;
+  right:-38px;
+  bottom:0px;
+}
+/* ================================================== Sign Up ============================================ */
+
+.sign_up{
+  background: #F5F5F5;
+  padding: 30px;
+}
+.sing_tite{
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sing_data{
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #647378;
+}
+.form_div{
+  width: 442px;
+  background: #E6E6E6;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.signup_input{
+  width: 324px;
+  font-size: 13px;
+  padding: 8px;
+  border: none;
+}
+.signup_input placeholder{
+  color: red;
+}
+.signup_bnt{
+  font-size: 13px;
+  border: none;
+  padding: 8px 12px;
+  background: #1283D6;
+  color: #fff;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+/* ========================================= footer ==================================== */
+
+.footer{
+  background-color: #000;
+  color: #fff;
+}
+.footer_body{
+  display: flex;
+  /* justify-content: space-between; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.foot{
+  padding: 10px 0;
+
 }
 
-.App-link {
-  color: #61dafb;
+ 
+.footer_ul{
+  margin-top: 10px;
+  margin-right: 150px;
+  list-style-type: none;
+  display: flex;
+
+}
+.footer_ul li{
+  margin-left: 40px;
+
+}
+.footer_logo{
+  margin-right: 250px;
+}
+.icons i{
+  margin-right: 40px;
+  font-size: 20px;
+}
+.footer_text{
+  text-align: center;
+  font-size: 13px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ======================================================= modal ========================== */
+
+.modal-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.modal-login{
+  width:400px;
+}
+.login_chak{
+  display: flex;
+  margin-top: 12px;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.login_chak a{
+  text-decoration: none;
+}
+
+.login_chak input{
+  transform:scale(1.3);
+  margin-top: 5px;
+}
+.login-btn{
+  width: 100%;
+  border: none;
+  background-color:#1283D6;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid transparent;
+  
+}
+.login-btn:hover{
+  background-color: #fff;
+  color: #1283D6;
+  border: #1283D6 2px solid;
+}
+
+ .mx :hover{
+    color: aquamarine !important;
+ }
+ .modal-footera{
+   padding: 10px  30px 30px;
+   margin-top: 20px;
+   background: #F0F0F0;
+  }
+  .login-btn-sing{
+    width: 100%;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border:#1283D6  2px solid;
+  color: #1283D6;
+  }
+  .login-btn-sing:hover{
+    background-color: #1283D6;
+    color: #fff;
+  }
+  .input-l{
+    width: 100%;
+    padding: 10px;
+    border: #5eddb1 2px solid;
+    outline: none;
+  }
+  .input-l:hover{
+    border: 2px solid #11e299;
+  }
+  .modalopen{
+    background-color: #fff;
+  }
+    
+  .modal_header{
+    padding: 30px;
+  }
