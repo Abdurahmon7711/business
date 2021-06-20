@@ -21,10 +21,6 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-
-
-
-
 const Nav = () => {
 
     const classes = useStyles();
